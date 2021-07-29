@@ -67,14 +67,14 @@ namespace resolucionDNS
             Console.WriteLine("Bienvenido! Estas trabajando el equipo: "+Dns.GetHostName());
 
             //Mostramos un mensaje al usuario
-            Console.WriteLine("Por favor, introduzca un nombre a resolver:");
+            Console.WriteLine("Hola, por favor, introduzca un nombre a resolver:");
 
             //Capturamos el dato introducido por el usuario
             String dominio;
             dominio = Console.ReadLine();
 
             //Mostramos un mensaje al usuario
-            Console.WriteLine("La direccion IP asociada al nombre es:");
+            Console.WriteLine("La direccion IP asociada al nombre ingresado es:");
 
             //resuelve el nombre de un dominio
             IPAddress[] direccionesIP = Dns.GetHostAddresses(dominio); 
