@@ -64,7 +64,7 @@ namespace resolucionDNS
         static void Main(string[] args)
         {
             //Obtiene el nombre del equipo
-            Console.WriteLine("Bienvenido! Estas trabajando en: "+Dns.GetHostName());
+            Console.WriteLine("Bienvenido! Estas trabajando el equipo: "+Dns.GetHostName());
 
             //Mostramos un mensaje al usuario
             Console.WriteLine("Por favor, introduzca un nombre a resolver:");
