@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "resolucionDNS", "resolucionDNS\resolucionDNS.csproj", "{1404E782-101E-41CE-B7DD-59CDE38678E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorUDP", "ServidorUDP\ServidorUDP.csproj", "{D307564C-2CEA-4AC5-90DF-1599C0F865FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteUDP", "ClienteUDP\ClienteUDP.csproj", "{D8D9BABF-4E9C-4448-8750-455CF5CFA233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorUDPBinario", "ServidorUDPBinario\ServidorUDPBinario.csproj", "{D186FFE8-924B-47A2-96D4-0EF7F3D55530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteUDPBinario", "ClienteUDPBinario\ClienteUDPBinario.csproj", "{1420C65B-3272-4025-8B02-71265C580689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeoutUDP", "TimeoutUDP\TimeoutUDP.csproj", "{240F5686-DDA9-4487-BE63-D09C74DA576E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1404E782-101E-41CE-B7DD-59CDE38678E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1404E782-101E-41CE-B7DD-59CDE38678E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1404E782-101E-41CE-B7DD-59CDE38678E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1404E782-101E-41CE-B7DD-59CDE38678E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D307564C-2CEA-4AC5-90DF-1599C0F865FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D307564C-2CEA-4AC5-90DF-1599C0F865FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D307564C-2CEA-4AC5-90DF-1599C0F865FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D307564C-2CEA-4AC5-90DF-1599C0F865FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D9BABF-4E9C-4448-8750-455CF5CFA233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D9BABF-4E9C-4448-8750-455CF5CFA233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D9BABF-4E9C-4448-8750-455CF5CFA233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D9BABF-4E9C-4448-8750-455CF5CFA233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D186FFE8-924B-47A2-96D4-0EF7F3D55530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D186FFE8-924B-47A2-96D4-0EF7F3D55530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D186FFE8-924B-47A2-96D4-0EF7F3D55530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D186FFE8-924B-47A2-96D4-0EF7F3D55530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1420C65B-3272-4025-8B02-71265C580689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1420C65B-3272-4025-8B02-71265C580689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1420C65B-3272-4025-8B02-71265C580689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1420C65B-3272-4025-8B02-71265C580689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240F5686-DDA9-4487-BE63-D09C74DA576E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240F5686-DDA9-4487-BE63-D09C74DA576E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240F5686-DDA9-4487-BE63-D09C74DA576E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240F5686-DDA9-4487-BE63-D09C74DA576E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6921563-7770-4EA3-BFC7-108792980F78}
+	EndGlobalSection
+EndGlobal
